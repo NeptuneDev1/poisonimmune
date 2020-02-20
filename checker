@@ -16,10 +16,11 @@ public class Checker
   
   public void init(Player player) {
     BukkitScheduler scheduler = Bukkit.getScheduler();
+    
     scheduler.scheduleSyncDelayedTask((Plugin)this.plugin, () -> {
           if (player.hasPermission("poison.immune") && 
             player.hasPotionEffect(PotionEffectType.POISON))
             player.removePotionEffect(PotionEffectType.POISON); 
-    } 1L, 0); 
+    } );
     }
-  }
+}
