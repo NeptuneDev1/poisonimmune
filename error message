@@ -1,0 +1,19 @@
+> [08:09:16 ERROR]: Could not load 'plugins/PoisonImmune.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NullPointerException
+at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:134) ~[custom.jar:git-TacoSpigot-bf023c7d]
+at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:335) ~[custom.jar:git-TacoSpigot-bf023c7d]
+at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:252) [custom.jar:git-TacoSpigot-bf023c7d]
+at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:294) [custom.jar:git-TacoSpigot-bf023c7d]
+at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:204) [custom.jar:git-TacoSpigot-bf023c7d]
+at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:572) [custom.jar:git-TacoSpigot-bf023c7d]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+Caused by: java.lang.NullPointerException
+at me.proiezrush.posionimmune.Main.<init>(Main.java:16) ~[?:?]
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_212]
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_212]
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_212]
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_212]
+at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_212]
+at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:77) ~[custom.jar:git-TacoSpigot-bf023c7d]
+at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:130) ~[custom.jar:git-TacoSpigot-bf023c7d]
+... 6 more
